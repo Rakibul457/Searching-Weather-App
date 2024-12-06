@@ -68,3 +68,54 @@ h1{
 h1 span{
     color: skyblue;
 }
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    form input {
+        font-size: 0.9rem;
+    }
+
+    #weather img {
+        width: 80px;
+        height: 80px;
+    }
+
+    #weather h1 {
+        font-size: 1.5rem;
+    }
+
+    #weather h3 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    form input {
+        font-size: 0.8rem;
+        padding: 8px;
+    }
+
+    #weather img {
+        width: 60px;
+        height: 60px;
+    }
+
+    #weather h1 {
+        font-size: 1.2rem;
+    }
+
+    #weather h3 {
+        font-size: 0.9rem;
+    }
+}
